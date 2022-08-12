@@ -1,6 +1,6 @@
 int n_size = 1024;
 
-void pre_processing(TString infile = "../peak_classification/counting_test.root", TString outfile = "dataset_train.txt", int start = 0, int n = -1) {
+void pre_processing(TString infile = "../peak_classification/peak_finding_test.root", TString outfile = "dataset_train.txt", int start = 0, int n = -1) {
     TFile* f = new TFile(infile);
     TTree* t = (TTree*)f->Get("signal");
 
