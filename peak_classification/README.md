@@ -20,4 +20,4 @@ Run the notebook test.ipynb
 Run the notebook post_processing.ipynb
 
 ## Others
-Besides the jupyter notebook files, there are also equivalent versions of python files for the test/post-processing. And also a shell script that wraps all processes for applying the trained model.
+Besides the jupyter notebook files, there are also equivalent python version files. And also scripts that wraps all processes together.
